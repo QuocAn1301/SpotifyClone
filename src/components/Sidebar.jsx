@@ -6,7 +6,7 @@ const sidebar = () => {
     return (
         <div className='w-[25%] h-full p-2 flex-col gap-2 text-white lg:flex hidden'>
             <div className='bg-[#121212] h-[15%] rounded flex flex-col justify-around'>
-                <div onClick={() => navigate('/SpotifyClone')} className='flex items-center gap-3 pl-8 cursor-pointer'>
+                <div onClick={() => navigate('/SpotifyClone/')} className='flex items-center gap-3 pl-8 cursor-pointer'>
                     <img className='w-7' src={assets.home_icon} alt="" />
                     <p className='font-bold text-[26px] '>Home</p>
                 </div>
